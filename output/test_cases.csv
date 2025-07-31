@@ -1,0 +1,5 @@
+ID,Action,Input,Expected Output
+TC1,Login,Email and Password,Dashboard is displayed
+TC2,Invalid Login,Wrong credentials,Error message is shown
+TC3,Login,Email and Password,Dashboard is displayed
+TC4,Reset Password,Email,Reset link sent to email

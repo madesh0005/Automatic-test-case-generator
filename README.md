@@ -3,7 +3,6 @@
 This project automatically generates **test cases** from **natural language software requirements** using **NLP (Natural Language Processing)** and **rule-based logic**.
 
 ---
-
 ## 🚀 Features
 
 - Accepts plain English requirements (e.g., "Login with email and password")

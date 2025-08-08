@@ -54,7 +54,7 @@ TC3	Search	  product name	    Product results shown
 
 👥 Authors
 
+MADHANRAJ V (TEAM LEAD)
 MADESHWARAN M
 LOKESHWARAN B
-MADHANRAJ V (TEAM LEAD)
 MADHAN E

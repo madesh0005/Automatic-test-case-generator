@@ -54,4 +54,11 @@ TC2	Reset	    email	Password    reset link sent
 TC3	Search	  product name	    Product results shown
 
 👥 Authors
+
 MADESHWARAN M
+
+LOKESHWARAN B
+
+MADHANRAJ V (TEAM LEAD)
+
+MADHAN E

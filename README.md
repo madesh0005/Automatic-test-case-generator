@@ -17,31 +17,18 @@ This project automatically generates **test cases** from **natural language soft
 ## 📁 Project Structure
 
 automated-test-case-generator/
-
 │
-
 ├── main.py # Main controller script
-
 ├── sample_requirements.txt # Input: natural language requirements
-
 ├── requirements.txt # Python dependencies
-
 │
-
 ├── test_case_generator/
-
 │ ├── init.py
-
 │ ├── nlp_parser.py # Extracts action and input from text
-
 │ ├── rules_engine.py # Maps action to expected output
-
 │ └── test_case_writer.py # Writes test cases to CSV
-
 │
-
 └── output/
-
 └── test_cases.csv # Output: auto-generated test cases
 
 
@@ -69,9 +56,6 @@ TC3	Search	  product name	    Product results shown
 👥 Authors
 
 MADESHWARAN M
-
 LOKESHWARAN B
-
 MADHANRAJ V (TEAM LEAD)
-
 MADHAN E

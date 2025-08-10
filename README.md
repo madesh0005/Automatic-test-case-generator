@@ -13,32 +13,41 @@ This project automatically generates **test cases** from **natural language soft
 
 ---
 
-## 📁 Project Structure
-
-automated-test-case-generator/
-│
-├── main.py # Main controller script
-├── sample_requirements.txt # Input: natural language requirements
-├── requirements.txt # Python dependencies
-│
-├── test_case_generator/
-│ ├── init.py
-│ ├── nlp_parser.py # Extracts action and input from text
-│ ├── rules_engine.py # Maps action to expected output
-│ └── test_case_writer.py # Writes test cases to CSV
-│
-└── output/
-└── test_cases.csv # Output: auto-generated test cases
+##📂 Project Structure
 
 
+Madesh project/
+│── app.py
+│── config.py
+│── requirements.txt
+│── history.db
+│── static/
+│    └── style.css
+│── templates/
+│    └── *.html
+│── utils/
+│    └── *.py
+│── README.md
 
-##Install dependencies:
+##📄 License
+MIT License
 
+
+
+
+##venv selection
+python3 -m venv venv
+source venv/bin/activate
+
+##3. Install dependencies
 pip install -r requirements.txt
-python3 -m spacy download en_core_web_sm
 
-##Run the project:
-python3 main.py
+##4. Run in development (HTTP)
+python app.py
+
+##Visit:
+http://127.0.0.1:5000
+
 
 ##Example Input (sample_requirements.txt)
 Login with email and password
@@ -54,7 +63,7 @@ TC3	Search	  product name	    Product results shown
 
 👥 Authors
 
-MADHANRAJ V (TEAM LEAD)
+MADHANRAJ V
 MADESHWARAN M
 LOKESHWARAN B
 MADHAN E
